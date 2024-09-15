@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'token_service.dart';
 
 class ApiService {
-  final String baseUrl = "http://192.168.0.145:8000/api/";
+  final String baseUrl = "http://52.66.240.191:8000/api/";
   final TokenService _tokenService = TokenService();
 
   Future<http.Response> getUserProfile() async {
